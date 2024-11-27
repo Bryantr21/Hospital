@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8b6f9f8f799a4697aa83f39fa31575ab" Name="Diagram1">
+        <EntityTypeShape EntityType="HospitalModel.Cita" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.Doctore" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.Especialidade" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.Paciente" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.Procedimiento" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.Procedimientos_Citas" Width="3.875" PointX="7.375" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="HospitalModel.FK__Citas__doctor_ID__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK__Citas__paciente___534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK__Procedimi__cita___5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK__Doctores__especi__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK__Procedimi__proce__571DF1D5" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
